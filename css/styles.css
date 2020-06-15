@@ -1,0 +1,485 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20px auto;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    background: url('/images/bg-curvy-desktop.svg') no-repeat;
+    background-color: hsl(218, 28%, 13%);
+}
+
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: "Raleway", sans-serif;
+    color: hsl(0, 0%, 100%);
+}
+
+button {
+    /* margin:22px 389px; */
+    width: 183px;
+    padding: 16px;
+    border-radius: 32px;
+    background: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+}
+
+.access,
+.collabo {
+    position: relative;
+    right: 100px;
+}
+
+.access>img {
+    margin: 20px 100px;
+}
+
+.access>h3,
+.collabo>h3 {
+    width: 900px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.access>p {
+    width: 353px;
+    text-align: center;
+    position: relative;
+    right: 20px;
+    line-height: 1.5;
+}
+
+.security,
+.file {
+    position: relative;
+    right: 50px;
+}
+
+.security>img {
+    position: relative;
+    bottom: 2px;
+    margin: 15px 200px;
+}
+
+.security>h3,
+.file>h3 {
+    position: relative;
+    left: 120px;
+    font-size: 25px;
+    font-weight: 500;
+
+}
+
+.security>p,
+.file>p {
+    text-align: center;
+    position: relative;
+    left: 50px;
+    width: 400px;
+    line-height: 1.5;
+}
+
+.collabo>img {
+    margin: 20px 100px;
+}
+
+
+
+.collabo>p {
+    width: 370px;
+    text-align: center;
+    position: relative;
+    right: 35px;
+    line-height: 1.5;
+}
+
+.file>img {
+    margin: 20px 200px;
+}
+
+.cta-image>img {
+    position: relative;
+    right: 50px;
+}
+
+.illust-note>p>a {
+    font-family: "Raleway", sans-serif;
+    color: hsl(176, 68%, 64%);
+    text-decoration-line: underline;
+}
+
+.illust-note>h2 {
+    width: 300px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.illust-note>p {
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+.illust-note {
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+
+.illust-note>.sm-dot {
+    border-radius: 50%;
+    position: relative;
+    bottom: 35px;
+    left: 140px;
+    width: 10px;
+    height: 10px;
+    background-color: hsl(176, 68%, 64%);
+}
+
+.container-fluid {
+    padding: 3% 22% 7% 22%;
+    height: auto;
+}
+
+.container {
+    padding: 0 12px 45px 12px;
+}
+
+.col-lg-6 {
+    margin: 42px auto 100px;
+}
+
+.intro>button {
+    margin: 12px 150px 12px 220px;
+}
+
+.intro>img {
+    margin: auto 20px auto -50px;
+}
+
+.intro>h2 {
+    margin: 12px 150px 12px 10px;
+    font-weight: 700;
+    width: 600px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.intro>p {
+    font-size: 18px;
+    width: 568px;
+    text-align: center;
+    line-height: 1.5;
+    margin: auto 150px auto 30px;
+}
+
+#testimonials>img {
+    position: relative;
+    left: 95px;
+    top: 70px;
+}
+
+.testimonial {
+    margin: 0 90px;
+}
+
+.box-1>p,
+.box-2>p,
+.box-3>p {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    width: 340px;
+    height: 145px;
+    line-height: 1.7;
+    color: hsl(0, 0%, 100%);
+    padding: 10px 0px 50px 12px;
+
+}
+
+.box-1,
+.box-2,
+.box-3 {
+    padding: 18px;
+    margin: 60px auto 0;
+    width: 380px;
+    height: 250px;
+    border: 1px solid;
+    border-radius: 4px;
+    background-color: hsl(219, 30%, 18%);
+}
+
+.box-1>img,
+.box-2>img,
+.box-3>img {
+    width: 60px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+}
+
+.profile>p {
+    font-size: 18px;
+    position: relative;
+    top: 5px;
+}
+
+.profile>h6 {
+    font-size: 12px;
+}
+
+.profile {
+    position: relative;
+    bottom: 70px;
+    left: 100px;
+}
+
+.ads-box>h2 {
+    text-align: center;
+    line-height: 1.8;
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+
+.ads-box>p {
+    width: 650px;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 6px;
+}
+
+.ads-box {
+    position: relative;
+    top: 100px;
+    height: 234px;
+    width: 908px;
+    margin: 0px auto 0px;
+    background-color: hsl(217, 28%, 15%);
+    z-index: 2;
+}
+
+.ads-box>button {
+    padding: 10px;
+    width: 200px;
+    position: relative;
+    bottom: 40px;
+    left: 600px;
+}
+
+.white-box {
+    margin: 20px 80px 0;
+    width: 483px;
+    padding: 16px;
+    border-radius: 32px;
+    background: hsl(0, 0%, 100%);
+}
+
+#footer {
+    background-color: hsl(216, 53%, 9%);
+    margin: 0;
+    padding: 400px auto 150px;
+    z-index: -1;
+}
+
+.logo-info {
+    margin-right: 20px;
+
+}
+
+.logo-info>p {
+    margin-left: 30px;
+    line-height: 1.7;
+}
+
+.logo-info>img {
+    margin: auto auto 40px;
+
+}
+
+.mobile>a {
+    color: hsl(0, 0%, 100%);
+    position: relative;
+    left: 8px;
+}
+
+.email>a {
+    color: hsl(0, 0%, 100%);
+    position: relative;
+    bottom: 20px;
+    left: 35px;
+
+}
+
+.email {
+    width: 28px;
+    position: relative;
+    top: 60px;
+    right: 125px;
+}
+
+.logo-ads {
+    position: relative;
+    right: 35px
+}
+
+.about-ads {
+    position: relative;
+    left: 65px;
+}
+
+.terms {
+    position: relative;
+    left: 30px;
+}
+
+img.location {
+    position: relative;
+    bottom: 79px;
+}
+
+.social-media {
+    position: relative;
+    left: 40px;
+}
+
+.social>a.fab.fa-facebook-f,
+.social>a.fab.fa-twitter,
+.social>a.fab.fa-instagram {
+    font-size: 24px;
+    height: 38px;
+    line-height: 40px;
+    margin: 5px;
+    text-align: center;
+    width: 38px;
+    border: 1px solid hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 100%;
+}
+
+.footer-ads {
+    padding: 200px 12px 22px 12px;
+}
+
+@media screen and (max-width: 375px) {
+
+    .access>h3,
+    .collabo>h3 {
+        width: 900px;
+    }
+
+    .security>img,
+    .file>img {
+        margin: 20px 100px;
+    }
+
+    .security>h3,
+    .file>h3 {
+        margin: 0;
+        width: 900px;
+        position: relative;
+        left: 0px;
+    }
+
+    .security>p,
+    .file>p {
+        position: relative;
+        left: -60px;
+    }
+
+    .access,
+    .collabo {
+        position: relative;
+        left: 320px;
+    }
+
+    .security,
+    .file {
+        position: relative;
+        left: 320px;
+    }
+
+    img.location {
+        position: relative;
+        bottom: 127px;
+    }
+
+    .media-contact {
+        margin-left: 80px;
+        position: relative;
+        bottom: 29px;
+    }
+
+    
+    img.email-img {
+    position: relative;
+    bottom: 20px;
+    }
+
+    .email > a{
+        position: relative;
+        bottom: 40px;
+    }
+
+    .logo-info>p {
+        width: 200px;
+    }
+
+    .logo-ads {
+        margin-left: 120px;
+    }
+
+    #cta {
+        position: relative;
+        left: 240px;
+    }
+
+    #advert {
+
+        position: relative;
+        left: 250px;
+
+    }
+
+    .about-ads {
+        position: relative;
+        left: 70px;
+        top: 15px;
+    }
+
+    .terms {
+        position: relative;
+        left: 65px;
+        top: 30px;
+    }
+
+    .social-media {
+        position: relative;
+        left: 550px;
+    }
+
+    #testimonials {
+        position: relative;
+        left: 420px;
+    }
+
+    #footer {
+        width: 400%;
+    }
+
+    .col-lg-12 {
+        position: relative;
+        left: 380px;
+    }
+
+
+    .col-lg-6 {
+        margin: 42px 220px 100px;
+    }
+}
